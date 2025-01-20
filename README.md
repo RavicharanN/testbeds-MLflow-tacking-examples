@@ -4,8 +4,7 @@ In this exercise, you are tasked with training and comparing different models fo
 
 1. Logistic Regression
 2. Random Forest Classifier
-3. Support Vector Machine (SVM)
-4. Simple Neural Net
+3. Simple Neural Net (TODO)
 
 This repo assumes that you have already setup the MLFlow tracking server. Follow the [instructions here](https://github.com/RavicharanN/testbeds-MLFlow/) to setup your MLFlow tracking server on Chameleon Cloud
 
@@ -25,5 +24,4 @@ pip install mlflow scikit-learn numpy pandas
 ## Exercise
 - Experiment with different hyperparameters in each notebook (e.g., number of estimators for the Random Forest, the kernel for the SVM, etc.).
 - Observe how each model performs, and track the metrics like accuracy and other logged parameters.
-- Try to improve the accuracy of the models by adjusting the parameters and re-running the training.
 
